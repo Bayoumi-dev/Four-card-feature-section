@@ -181,3 +181,18 @@ main {
   height: 100%;
   object-fit: cover;
 }
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  font-size: 0.867rem;
+  color: var(--colors-dark-blue);
+}
+footer a {
+  color: inherit;
+}
+footer a:hover {
+  color: var(--colors-blue);
+}

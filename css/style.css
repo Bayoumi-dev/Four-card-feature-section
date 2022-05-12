@@ -1,0 +1,43 @@
+/* Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* Variables */
+:root {
+  /* Colors - Primary */
+  --colors-red: hsl(0, 78%, 62%);
+  --colors-cyan: hsl(180, 62%, 55%);
+  --colors-orange: hsl(34, 97%, 64%);
+  --colors-blue: hsl(212, 86%, 64%);
+  /* Colors - Neutral */
+  --colors-dark-blue: hsl(234, 12%, 34%);
+  --colors-grayish-blue: hsl(229, 6%, 66%);
+  --colors-light-gray: hsl(0, 0%, 98%);
+  /* Fonts */
+  --fonts-main: "Poppins", sans-serif;
+}
+/* Global Rules  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+body {
+  font-family: var(--fonts-main);
+  cursor: default;
+}
+
+/* Centering component */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  background-color: var();
+}
